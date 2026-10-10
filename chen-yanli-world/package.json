@@ -1,0 +1,10 @@
+{
+  "name": "chen-yanli-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node qa-game.mjs && node qa-sound.mjs && node qa-media.mjs && node qa-input.mjs",
+    "audio": "node generate-audio.mjs"
+  }
+}
