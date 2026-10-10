@@ -1,10 +1,10 @@
 # 陈燕丽的异世界生活
 
-GitHub Pages 发布文件已准备好，位于仓库根目录的 `docs/`。
+[🎮 点击开始游戏](https://rawcdn.githack.com/20061025hjh-oss/11111/8330293f6755bede80222b1f580aa2a09bddbfa8/docs/index.html)
 
-在[Pages 设置](https://github.com/20061025hjh-oss/11111/settings/pages)选择 **Deploy from a branch → main → /docs → Save**，等待部署完成。
+手机和电脑均可打开，无需登录或安装。首次打开 GitHack 可能显示访问确认页，点“Open the page”后，再点“开始冒险”即可游玩并启用声音。
 
-GitHub Pages 开通后的游戏地址：`https://20061025hjh-oss.github.io/11111/`。手机和电脑均可直接打开游玩。
+网页通过 GitHack CDN 读取本仓库的固定版本 `8330293f6755bede80222b1f580aa2a09bddbfa8`，无需开启 GitHub Pages。
 
 原创方块像素横版冒险游戏，主角为陈燕丽。此文件夹保存最新手机网页版及早期 Python 桌面原版。
 
