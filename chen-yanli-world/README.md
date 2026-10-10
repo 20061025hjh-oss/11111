@@ -1,8 +1,10 @@
 # 陈燕丽的异世界生活
 
-[🎮 点击直接开始游戏](https://chen-yanli-world-1010.muddy-flea-8746.chatgpt.site)
+GitHub Pages 发布文件已准备好，位于仓库根目录的 `docs/`。
 
-无需安装，手机和电脑均可直接打开游玩。
+在[Pages 设置](https://github.com/20061025hjh-oss/11111/settings/pages)选择 **Deploy from a branch → main → /docs → Save**，等待部署完成。
+
+GitHub Pages 开通后的游戏地址：`https://20061025hjh-oss.github.io/11111/`。手机和电脑均可直接打开游玩。
 
 原创方块像素横版冒险游戏，主角为陈燕丽。此文件夹保存最新手机网页版及早期 Python 桌面原版。
 
@@ -15,7 +17,7 @@
 - 独立音乐/音效音量，暂停或切出页面停止音乐，兼容播放和试音按钮。
 - 最高分与关卡解锁保存在浏览器本地。
 
-在线试玩：https://chen-yanli-world-1010.muddy-flea-8746.chatgpt.site （已公开，任何持有链接的人都可访问）
+GitHub Pages 发布来源：`main` 分支的 `/docs` 文件夹。发布文件与本目录 `dist/` 的最新版一致。
 
 ## 本地运行网页版
 
@@ -64,3 +66,7 @@ npm run audio
 - `python/`：Python 桌面原版。
 
 本项目保留通用源码与资源，不包含托管平台配置或凭据。
+
+## 更新 GitHub Pages 发布文件
+
+修改 `dist/` 后，将其中的全部文件同步复制到仓库根目录的 `docs/`，保留 `docs/.nojekyll`，再提交到 `main`。开启 Pages 后，后续提交会触发重新发布。

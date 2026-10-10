@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#343047"><meta name="description" content="陈燕丽的方块像素冒险。手机触屏即可体验金币、怪兽、二段跳、魔法和自由建造。">
+<title>陈燕丽的异世界生活</title>
+<link rel="stylesheet" href="style.css?v=music3">
+</head>
+<body>
+<main class="shell">
+<header class="masthead"><div><div class="eyebrow"><span class="pixel-dot"></span> PIXEL ADVENTURE <span class="badge">手机试玩版</span></div><h1>陈燕丽的异世界生活</h1><p>金币、勇气和星光，都是这段旅途的纪念。</p></div><div class="header-stamp" aria-hidden="true">CYL<span>WORLD 01 — 03</span></div></header>
+<section class="gamebox" aria-label="像素冒险游戏">
+<div class="toolbar"><div class="live-stats"><span id="hpLabel">♥ ♥ ♥ ♥ ♥</span><span id="coinLabel">金币 0</span></div><nav aria-label="游戏操作"><button id="music" title="开启或关闭背景音乐" aria-pressed="true">音乐开</button><button id="soundTest" title="播放三声测试音">试音</button><button id="sound" title="开启音效" aria-pressed="true">点按开声</button><button id="build" title="开启或关闭建造" aria-pressed="false">建造</button><button id="recover" hidden aria-pressed="false">回收</button><button id="pause" title="暂停游戏">暂停</button><button id="fullscreen" title="沉浸模式">全屏</button><button id="home" title="回到首页">首页</button></nav></div>
+<div class="play-area" id="playArea"><canvas id="game" width="1000" height="640" tabindex="0" aria-label="游戏画面，使用下方按钮或键盘控制陈燕丽"></canvas><div class="overlay" id="overlay"><div class="dialog" id="dialog"></div></div><div id="toast" class="toast" role="status" aria-live="polite"></div></div>
+<div class="controls" aria-label="触屏控制"><div class="direction-group"><button class="touch direction" data-key="left" aria-label="向左移动">◀</button><button class="touch direction" data-key="right" aria-label="向右移动">▶</button><button class="touch sprint" data-key="shift" aria-label="按住加速">加速</button></div><div class="action-group"><button class="touch magic" data-key="j" aria-label="魔法攻击">✦<small>魔法</small></button><button class="touch jump" data-key="jump" aria-label="跳跃，再按一次二段跳">↑<small>跳跃</small></button></div></div>
+</section>
+<footer><p class="sound-status" id="soundStatus" role="status" aria-live="polite">音乐增强版 · 点“试音”或“开始冒险”，开启配乐与音效。</p><details class="sound-settings"><summary>声音设置</summary><div class="volume-settings"><label>音效音量 <input id="fxVolume" type="range" min="0" max="1" step="0.01" value="0.72"></label><label>音乐音量 <input id="musicVolume" type="range" min="0" max="1" step="0.01" value="0.28"></label><label><input id="compatAudio" type="checkbox"> 兼容播放（试音无声时开启）</label></div><p>默认使用低延迟播放。手机需先点按页面允许声音；切出页面会暂停音乐。</p></details><span class="orientation-tip">↻ 横屏体验更好</span><span>连按两次跳跃可二段跳 · 踩怪或发射魔法 · 到达传送门过关</span><details><summary>查看键盘与建造操作</summary><p>电脑：A / D 或方向键移动，空格跳跃，Shift 加速，J 魔法，B 建造，P 暂停，R 重开，Esc 首页。<br>建造：打开“建造”后点角色附近的空位放方块；打开“回收”后点自建方块回收。只可改造身边 5 格以内。</p></details></footer>
+</main>
+<script type="module" src="game.js?v=music3"></script>
+</body></html>
