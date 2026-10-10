@@ -1,5 +1,9 @@
 # 陈燕丽的异世界生活
 
+[🎮 点击直接开始游戏](https://chen-yanli-world-1010.muddy-flea-8746.chatgpt.site)
+
+无需安装，手机和电脑均可直接打开游玩。
+
 原创方块像素横版冒险游戏，主角为陈燕丽。此文件夹保存最新手机网页版及早期 Python 桌面原版。
 
 ## 网页版
@@ -11,7 +15,7 @@
 - 独立音乐/音效音量，暂停或切出页面停止音乐，兼容播放和试音按钮。
 - 最高分与关卡解锁保存在浏览器本地。
 
-在线试玩：https://chen-yanli-world-1010.muddy-flea-8746.chatgpt.site （当前需使用站点所有者账号访问）
+在线试玩：https://chen-yanli-world-1010.muddy-flea-8746.chatgpt.site （已公开，任何持有链接的人都可访问）
 
 ## 本地运行网页版
 
